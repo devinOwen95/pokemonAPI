@@ -1,0 +1,151 @@
+body{
+    background-color:yellow;
+}
+h1{
+    font-size: 4rem;
+    font-family: 'Sigmar One', cursive;
+    color: yellow;
+}
+h3{
+    font-size: 2rem;
+    font-family: 'Sigmar One', cursive;
+    color: yellow;
+    ;
+}
+.question{
+color:red;
+font-family: 'Red Rose', cursive;
+font-size: large;
+font-weight: bolder;
+}
+
+.answer{
+color:blue;
+font-family:'Sigmar One', cursive; 
+font-size: large;
+
+}
+.header{
+    background-color: blue;
+    border: 15px red solid;
+    border-radius:5px;
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+
+
+.pikachu{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items :center;    
+
+}
+
+#pikachuAbility{
+    border: 2px black solid;
+    background-color: blue;
+    width: 30%;
+    height: 30%;
+    /* margin-left: 50%;
+    margin-right: 50%; */
+    
+    
+
+}
+
+#pikachuAbility:hover{
+    background-color: yellow;
+    cursor:pointer;
+}
+
+#pikachuHeight{
+    border: 2px black solid;
+    background-color: blue;
+    width: 30%;
+    height: 30%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    
+    
+
+}
+
+#pikachuHeight:hover{
+    background-color: yellow;
+    cursor:pointer;
+}
+
+#pikachuWeight{
+    border: 2px black solid;
+    background-color: blue;
+    width: 30%;
+    height: 30%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+    
+    
+
+}
+
+#pikachuWeight:hover{
+    background-color: yellow;
+    cursor:pointer;
+}
+
+#pikachuPicture{
+    border: 2px yellow solid;
+    background-color:yellow;
+    border-radius: 100%;
+    width: 30%;
+    height: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* margin-left: 50%;
+    margin-right: 50%; */
+    
+    
+
+}
+
+#pikachuPicture:hover{
+    background-color: red;
+    cursor:pointer;
+    
+    
+}
+
+.ending{
+    background-color: blue;
+    border: 1em red solid;
+    border-radius:5px;
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+#bottomPage{
+    background-color: blue;
+    border: 3px red solid;
+    border-radius:5px;
+    
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+
+

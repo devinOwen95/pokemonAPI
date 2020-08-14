@@ -4,15 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon Api</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="pikachu">
+    <div class="header">
+        <h1>Pokemon</h1>
+        <h3>Pikachu Quiz</h3>
+
+    </div>
+    <div class="pikachu">
+        <h3 class="answer" id="rules"> Answer the questions correctly to catch Pikachu.<br>
+        Hover over the blue box to get the answer. </h4>
+
+        <p class="question">What are Pikachu's three main powers?</p>
+        <p class= 'answer' id="pikachuAbility" onclick="ability(pikachu)"></p>
+        <p class="question">How tall is Pikachu?</p>
+        <p class="answer" id="pikachuHeight"></p>
+        <p  class="question">How much does Pikachu weight?</p>
+        <p class="answer" id ='pikachuWeight'></p>
+        <p class="answer" id="catch">Click Pikachu if you answered each question correct.</p>
+        <img id='pikachuPicture' onclick="caught()">
+
+
+    </div>
+
+    <div class="ending">
+        <div id="bottomPage">
+            <h3 id>Gotta Catch Them All!</h3>
+        </div>
+    </div>
+
+    <!-- <div id="charizard">
+
+        <p>What is charizard's main power?</p>
+        <p id="charizardAbility" ></p>
+        <p>How tall is charizard?</p>
+        <p id="charizardHeight"></p>
+        <p>How much does charizard weight?</p>
+        <p id ='charizardWeight'></p>
+        <img id='charizardPicture'>
+
+    </div>
+
+    <div id="squirtle">
+
+       
+        <p>What is squirtle's main power?</p>
+        <p id="squirtleAbility" ></p>
+        <p>How tall is squirtle?</p>
+        <p id="squirtleHeight"></p>
+        <p>How much does squirtle weight?</p>
+        <p id ='squirtleWeight'></p>
+        <img id='squirtlePicture'>
+        
+
+    </div> -->
+
+    <!-- <div id="bulbasaur">
+
+       
+        <p>What is bulbasaur's main power?</p>
+        <p id="bulbasaurAbility" ></p>
+        <p>How tall is bulbasaur?</p>
+        <p id="bulbasaurHeight"></p>
+        <p>How much does bulbasaur weight?</p>
+        <p id ='bulbasaurWeight'></p>
+        <img id='bulbasaurPicture'>
         
 
     </div>
 
+    <div id="pidgeotto">
 
-<script src="script.js"></script>
+        <p>What is pidgeotto's main power?</p>
+        <p id="pidgeottoAbility" ></p>
+        <p>How tall is pidgeotto?</p>
+        <p id="pidgeottoHeight"></p>
+        <p>How much does pidgeotto weight?</p>
+        <p id ='pidgeottoWeight'></p>
+        <img id='pidgeottoPicture'>
+        
+
+    </div>
+
+    <div id="butterfree">
+        
+        <p>What is butterfree's main power?</p>
+        <p id="butterfreeAbility" ></p>
+        <p>How tall is butterfree?</p>
+        <p id="butterfreeHeight"></p>
+        <p>How much does butterfree weight?</p>
+        <p id ='butterfreeWeight'></p>
+        <img id='butterfreePicture'>
+        
+
+    </div> -->
+    
+    
+
+
+<script src="script.js" type="text/javascript"></script>
 </body>
 </html>
